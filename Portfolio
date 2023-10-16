@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Mitch Dev</title>
+</head>
 
+<body>
+    <nav>
+        <h1>Jean-Michel HALDER</h1>
+        <ul>
+            <li class="mail">
+                halder.jean-michel@orange.fr
+            </li>
+            <li id="dark-light-mode" onclick="changeDarkMode()">
+                Dark mode
+            </li>
+        </ul>
+    </nav>
+    
+    <header>
+        <div class="header-left">
+            <small><span class="material-symbols-outlined">home_pin</span>Bagneux, France</small>
+                <h1>
+                    Bonjour,<br />
+                    je suis Jean-Michel !
+                </h1>
+                <p>
+                    j'ai 47 ans, je suis marié et j'ai 2 enfants
+                </p>
+                <div class="links">
+                    <a href="mailto: halder.jean-michel@orange.fr"><span class="material-symbols-outlined">mail</span>Email</a>
+                    <a href="https://www.linkedin.com/in/jean-michel-halder-5865a347/"><span class="material-symbols-outlined">person</span>LinkedIn</span></a>
+                    <a href="CV/CV DEV.pdf"><span class="material-symbols-outlined">file_open</span>Curriculum vitae</a>
+                </div>
+        </div>
+        <div class="header-right">
+            <img src="img/IMG_3044.jpeg" alt="profile-photo">
+        </div>
+    </header>
+
+    <section class="about">
+        <h4>A propos de moi</h4>
+        <p>Salarié dans le domaine de la sécurité depuis 1996, je me suis spécialisé dans la prévention incendie en 2001. Aujourd'hui, diplômé<br />
+        SSIAP 3, je désire me tourner vers un autre domaine que j'aime, le Web.<br /><br />
+        C'est pour cela, que depuis 2021, je suis une formation en ligne pour devenir DEVELOPPEUR WEB FULLSTACK avec l'école STUDI. Grâce à cette formation, j'ai appris ce qu'était le langage HTML, CSS et JAVASCRIPT et j'aspire à en apprendre plus encore.
+        </p>
+    </section>
+
+    <section class="projets">
+        <div class="image-card">
+            <div class="image-left">
+                <img src="img/robbie-lens.png" alt="robbie-lens">
+            </div>
+            <div class="image-right">
+                <h1>
+                    Portfolio Robbie Lens
+                </h1>
+                <p>
+                    Cas d'étude avec Openclassrooms. Création d'un portfolio d'une photographe avec HTML5 et CSS3.<br />
+                    Mise en place du responsive design.
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <div class="image-left">
+                <img src="img/outdoor-dining-1846137_1920.jpg" alt="le-quai-antique">
+            </div>
+            <div class="image-right">
+                <h1>
+                    Restaurant Le Quai Antique
+                </h1>
+                <p>
+                    Cas d'étude avec Studi. Création d'un site web pour un restaurant avec HTML5, CSS3 et JAVASCRIPT.<br />
+                    Mise en place du responsive design.<br />
+                    Création de formulaires de connexion et de réservation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>
+            Jean-Michel HALDER
+        </h3>
+        <p>&copy; Jean-Michel HALDER 2023</p>
+    </footer>
+
+    <script src="js/script.js">
+
+    </script>
+
+</body>
+</html>
